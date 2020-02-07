@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410830c2-1157-4a3e-b6aa-69c18096f40d" name="Default Changelist" comment="" />
+    <list default="true" id="410830c2-1157-4a3e-b6aa-69c18096f40d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NotfiyPositionsFinishedRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/NotfiyPositionsFinishedRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TypeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/TypeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XTElBhHUfzmBzy25J66lOsJ21h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -89,11 +104,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581061832879</updated>
-      <workItem from="1581061836398" duration="4466000" />
+      <workItem from="1581061836398" duration="5162000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,3 +1,5 @@
+package at.orderlibrary;
+
 import java.io.Serializable;
 
 public class Position implements Serializable {
