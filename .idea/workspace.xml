@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410830c2-1157-4a3e-b6aa-69c18096f40d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NotfiyPositionsFinishedRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/NotfiyPositionsFinishedRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TypeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/TypeRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +30,7 @@
   <component name="ProjectId" id="1XTElBhHUfzmBzy25J66lOsJ21h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -116,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
