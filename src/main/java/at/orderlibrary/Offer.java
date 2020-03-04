@@ -1,8 +1,6 @@
 package at.orderlibrary;
 
-import java.io.Serializable;
-
-public class Offer implements Serializable {
+public class Offer  {
     public int id;
     public Category category;
     public String name;

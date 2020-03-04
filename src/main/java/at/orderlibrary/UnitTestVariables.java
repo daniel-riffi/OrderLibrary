@@ -37,6 +37,6 @@ public class UnitTestVariables {
 
         order1 = new Order(1, 5, positions);
 
-        positions.forEach(x -> x.order = order1);
+        positions.forEach(x -> x.setOrder(order1));
     }
 }
