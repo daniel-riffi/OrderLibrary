@@ -1,11 +1,9 @@
 package at.orderlibrary;
 
-import java.io.Serializable;
-
-public class Position implements Serializable {
+public class Position {
     public Product product;
     public int amount;
-    public Order order;
+    private Order order;
 
     public Position(Product product, int amount, Order order){
         this.product = product;
@@ -19,22 +17,6 @@ public class Position implements Serializable {
     }
 
     public Position(){}
-
-    public Product getProduct() {
-        return product;
-    }
-
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
 
     public Order getOrder() {
         return order;
@@ -52,6 +34,6 @@ public class Position implements Serializable {
     @Override
     public boolean equals(Object other){
         Position pos = (Position) other;
-        return product.offer.id == pos.product.offer.id && amount == pos.amount;
+        return product.offer.id == pos.product.offer.id;
     }
 }

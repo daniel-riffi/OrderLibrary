@@ -1,12 +1,11 @@
 package at.orderlibrary;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class Order implements Serializable {
+public class Order  {
     public List<Position> positions;
     public int tableNumber;
     public int orderNumber;
