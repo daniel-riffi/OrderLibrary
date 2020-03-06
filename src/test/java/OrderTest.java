@@ -31,7 +31,7 @@ public class OrderTest {
 
         positions = new ArrayList<>(Arrays.asList(position1, position2, position3));
         order = new Order(1, 5, positions);
-        positions.forEach(x -> x.order = order);
+        positions.forEach(x -> x.setOrder(order));
     }
 
     @Test
