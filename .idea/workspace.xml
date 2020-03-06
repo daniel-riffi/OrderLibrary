@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="410830c2-1157-4a3e-b6aa-69c18096f40d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NotfiyPositionsFinishedRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Offer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TypeRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/OrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/OrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/OrderTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/OrderTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-OrderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-OrderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/orderlibrary/UnitTestVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/orderlibrary/UnitTestVariables.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +109,7 @@
       <updated>1581061832879</updated>
       <workItem from="1581061836398" duration="5162000" />
       <workItem from="1581494453496" duration="34000" />
-      <workItem from="1583324423879" duration="309000" />
+      <workItem from="1583324423879" duration="1196000" />
     </task>
     <servers />
   </component>

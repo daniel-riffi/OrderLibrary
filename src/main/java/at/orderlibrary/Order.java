@@ -30,13 +30,26 @@ public class Order  {
 
     public Order copyOrderWithPositions(ArrayList<Position> newPositions){
         newPositions.forEach(x -> positions.remove(x));
-        return new Order(orderNumber, tableNumber, newPositions);
+        Order newOrder = new Order(orderNumber, tableNumber, newPositions);
+        newPositions.forEach(x -> x.setOrder(newOrder));
+        return newOrder;
     }
 
     public Order copyOrderWithFunction(Predicate<Position> predicate){
         ArrayList<Position> newPositions = new ArrayList<>(positions.stream().filter(predicate).collect(Collectors.toList()));
         newPositions.forEach(x -> positions.remove(x));
         return new Order(orderNumber, tableNumber, newPositions);
+    }
+
+    public void addPosition(Position position) {
+        this.positions.add(position);
+        Order oldOrder = position.getOrder();
+        oldOrder.positions.remove(position);
+        position.setOrder(this);
+    }
+
+    public void reinitPositionsWithOrder(){
+        positions.forEach(x -> x.setOrder(this));
     }
 
     @Override
