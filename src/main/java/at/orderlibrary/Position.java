@@ -36,4 +36,11 @@ public class Position {
         Position pos = (Position) other;
         return product.offer.id == pos.product.offer.id;
     }
+    public double calcPrice(){
+        return product.offer.price * amount;
+    }
+    public Position(Position another){
+        this.product = another.product;
+        this.amount = another.amount;
+    }
 }
