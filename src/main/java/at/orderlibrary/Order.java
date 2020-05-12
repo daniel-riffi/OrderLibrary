@@ -1,6 +1,8 @@
 package at.orderlibrary;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -16,6 +18,12 @@ public class Order  {
         this.positions = positions;
     }
 
+    public Order(int orderNumber, int tableNumber, Position position){
+        this.orderNumber = orderNumber;
+        this.tableNumber = tableNumber;
+        this.positions = new ArrayList<>(Arrays.asList(position));
+    }
+
     public Order(int orderNumber, int tableNumber){
         this.orderNumber = orderNumber;
         this.tableNumber = tableNumber;
@@ -28,10 +36,12 @@ public class Order  {
         return new Order(orderNumber, tableNumber);
     }
 
-    public Order copyOrderWithPositions(ArrayList<Position> newPositions){
-        newPositions.forEach(x -> positions.remove(x));
-        Order newOrder = new Order(orderNumber, tableNumber, newPositions);
-        newPositions.forEach(x -> x.setOrder(newOrder));
+    public Order copyOrderWithPositions(Position position){
+        if(position.amount == 0){
+            positions.remove(position);
+        }
+        Order newOrder = new Order(orderNumber, tableNumber, position);
+        position.setOrder(newOrder);
         return newOrder;
     }
 
@@ -44,7 +54,7 @@ public class Order  {
     public void addPosition(Position position) {
         this.positions.add(position);
         Order oldOrder = position.getOrder();
-        oldOrder.positions.remove(position);
+        //oldOrder.positions.stream().filter(x -> x.equals(position)).findFirst().get().amount--;
         position.setOrder(this);
     }
 
@@ -54,7 +64,7 @@ public class Order  {
 
     @Override
     public String toString() {
-        return "orderNumber: " + orderNumber + ", tableNumber: " + tableNumber + ", positions: " + positions.size();
+        return "Bestellung " + orderNumber;
     }
 
     @Override

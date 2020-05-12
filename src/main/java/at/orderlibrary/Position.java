@@ -26,9 +26,16 @@ public class Position {
         this.order = order;
     }
 
+    public Position copyPositionAndDecreaseAmount(){
+        this.amount--;
+        if(amount == 0) order.positions.remove(this);
+        return new Position(this.product, 1, this.order);
+    }
+
     @Override
     public String toString() {
-        return product.toString() + ", amount: " + amount;
+
+        return amount + "x " + product.offer.name;
     }
 
     @Override

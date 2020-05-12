@@ -43,16 +43,16 @@ public class OrderTest {
         Assert.assertEquals(actual.positions.size(), 0);
     }
 
-    @Test
-    public void copyOrderWithPositions() {
-        ArrayList<Position> newPositions = new ArrayList<Position>(Arrays.asList(position1, position2));
-        Order expected = new Order(1, 5, newPositions);
-        Order actual = order.copyOrderWithPositions(newPositions);
-        Assert.assertEquals(actual.orderNumber, expected.orderNumber);
-        Assert.assertEquals(actual.tableNumber, expected.tableNumber);
-        Assert.assertEquals(order.positions, new ArrayList<Position>(Arrays.asList(position3)));
-        Assert.assertEquals(actual.positions, newPositions);
-    }
+//    @Test
+//    public void copyOrderWithPositions() {
+//        ArrayList<Position> newPositions = new ArrayList<Position>(Arrays.asList(position1, position2));
+//        Order expected = new Order(1, 5, newPositions);
+//        Order actual = order.copyOrderWithPositions(newPositions);
+//        Assert.assertEquals(actual.orderNumber, expected.orderNumber);
+//        Assert.assertEquals(actual.tableNumber, expected.tableNumber);
+//        Assert.assertEquals(order.positions, new ArrayList<Position>(Arrays.asList(position3)));
+//        Assert.assertEquals(actual.positions, newPositions);
+//    }
 
     @Test
     public void copyOrderWithFunction() {
