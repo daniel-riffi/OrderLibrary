@@ -1,6 +1,8 @@
 package at.orderlibrary;
 
-public class Position {
+import java.io.Serializable;
+
+public class Position implements Serializable {
     public Product product;
     public int amount;
     private Order order;

@@ -1,6 +1,6 @@
 package at.orderlibrary;
 
-public class Offer  {
+public class Offer {
     public int id;
     public Category category;
     public String name;
