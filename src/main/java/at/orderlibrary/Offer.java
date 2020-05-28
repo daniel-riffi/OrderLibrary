@@ -19,6 +19,6 @@ public class Offer implements Serializable {
 
     @Override
     public String toString() {
-        return "id: " + id + "name: " + name + ", price: " + price + ", category: " + category.name();
+        return name + " " + price + "€";
     }
 }
