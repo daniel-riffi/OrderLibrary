@@ -43,7 +43,8 @@ public class Position implements Serializable {
     @Override
     public boolean equals(Object other){
         Position pos = (Position) other;
-        return product.offer.id == pos.product.offer.id && product.specialWish.equals(product.specialWish);
+        if(pos.getOrder() == null)return product.offer.id == pos.product.offer.id && product.specialWish.equals(product.specialWish);
+        else return product.offer.id == pos.product.offer.id && order.orderNumber == pos.getOrder().orderNumber && product.specialWish.equals(product.specialWish);
     }
     public double calcPrice(){
         return product.offer.price * amount;
