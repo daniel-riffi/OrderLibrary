@@ -30,13 +30,13 @@ public class OrderTest {
         position3 = new Position(product3, 2);
 
         positions = new ArrayList<>(Arrays.asList(position1, position2, position3));
-        order = new Order(1, 5, positions);
+        order = new Order(1, "5", positions);
         positions.forEach(x -> x.setOrder(order));
     }
 
     @Test
     public void copyOrderWithNoPositions() {
-        Order expected = new Order(1, 5, new ArrayList<>());
+        Order expected = new Order(1, "5", new ArrayList<>());
         Order actual = order.copyOrderWithNoPositions();
         Assert.assertEquals(actual.orderNumber, expected.orderNumber);
         Assert.assertEquals(actual.tableNumber, expected.tableNumber);
@@ -56,7 +56,7 @@ public class OrderTest {
 
     @Test
     public void copyOrderWithFunction() {
-        Order expected = new Order(1, 5, new ArrayList<Position>(Arrays.asList(position1, position3)));
+        Order expected = new Order(1, "5", new ArrayList<Position>(Arrays.asList(position1, position3)));
         Order actual = order.copyOrderWithFunction(x -> x.product.offer.price > 5);
         Assert.assertEquals(actual.orderNumber, expected.orderNumber);
         Assert.assertEquals(actual.tableNumber, expected.tableNumber);
@@ -66,13 +66,13 @@ public class OrderTest {
 
     @Test
     public void testEquals_1() {
-        Order orderForComparison = new Order(1, 5, positions);
+        Order orderForComparison = new Order(1, "5", positions);
         Assert.assertTrue(order.equals(orderForComparison));
     }
 
     @Test
     public void testEquals_2() {
-        Order orderForComparison = new Order(5, 5, positions);
+        Order orderForComparison = new Order(5, "5", positions);
         Assert.assertFalse(order.equals(orderForComparison));
     }
 }
