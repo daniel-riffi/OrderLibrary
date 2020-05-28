@@ -54,9 +54,9 @@ public class UnitTestVariables {
         positions2 = new ArrayList(Arrays.asList(position4));
         positions3 = new ArrayList(Arrays.asList(position5));
 
-        order1 = new Order(1, 5, positions1);
-        order2 = new Order(2, 6, positions2);
-        order3 = new Order(3, 7, positions3);
+        order1 = new Order(1, "5", positions1);
+        order2 = new Order(2, "6", positions2);
+        order3 = new Order(3, "7", positions3);
 
         positions1.forEach(x -> x.setOrder(order1));
         positions2.forEach(x -> x.setOrder(order2));

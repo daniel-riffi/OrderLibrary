@@ -36,14 +36,14 @@ public class Position implements Serializable {
 
     @Override
     public String toString() {
-
-        return amount + "x " + product.offer.name;
+        if(product.specialWish.equals("")) return amount + "x " + product.offer.name;
+        else return amount + "x " + product.offer.name + " (" + product.specialWish + ")";
     }
 
     @Override
     public boolean equals(Object other){
         Position pos = (Position) other;
-        return product.offer.id == pos.product.offer.id;
+        return product.offer.id == pos.product.offer.id && product.specialWish.equals(product.specialWish);
     }
     public double calcPrice(){
         return product.offer.price * amount;

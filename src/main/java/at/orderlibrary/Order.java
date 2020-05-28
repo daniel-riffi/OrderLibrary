@@ -10,22 +10,22 @@ import java.util.stream.Collectors;
 
 public class Order implements Serializable {
     public List<Position> positions;
-    public int tableNumber;
+    public String tableNumber;
     public int orderNumber;
 
-    public Order(int orderNumber, int tableNumber, ArrayList<Position> positions){
+    public Order(int orderNumber, String tableNumber, ArrayList<Position> positions){
         this.orderNumber = orderNumber;
         this.tableNumber = tableNumber;
         this.positions = positions;
     }
 
-    public Order(int orderNumber, int tableNumber, Position position){
+    public Order(int orderNumber, String tableNumber, Position position){
         this.orderNumber = orderNumber;
         this.tableNumber = tableNumber;
         this.positions = new ArrayList<>(Arrays.asList(position));
     }
 
-    public Order(int orderNumber, int tableNumber){
+    public Order(int orderNumber, String tableNumber){
         this.orderNumber = orderNumber;
         this.tableNumber = tableNumber;
         this.positions = new ArrayList<Position>();
